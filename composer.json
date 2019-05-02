@@ -1,0 +1,22 @@
+{
+    "name": "slavkovrn/yii2-dtreemenu",
+    "description": "Yii2 dTree 2.05 Menu widget",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii 2", "dTree Menu widget", "dTree 2.05 Dynamic tree view control"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Viacheslav Kolesnikov",
+            "email": "slavko.chita@gmail.com",
+            "homepage": "http://yii2.kadastrcard.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "slavkovrn\\dtreemenu\\": "src/"
+        }
+    }
+}
